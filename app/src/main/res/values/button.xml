@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_baseline_home_24</item>
+        <item>@drawable/ic_baseline_group_add_24</item>
+        <item>@drawable/ic_baseline_notifications_active_24</item>
+        <item>@drawable/ic_baseline_local_phone_24</item>
+        <item>@drawable/pdf</item>
+    </array>
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_orange_light</item>
+    </array>
+</resources>
