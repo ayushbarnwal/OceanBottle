@@ -86,7 +86,8 @@ public class MessageAdapter extends RecyclerView.Adapter {
                 ((ReceiverViewHolder)holder).receiver_msg.setVisibility(View.GONE);
                 ((ReceiverViewHolder)holder).receiver_time.setText(simpleDateFormat.format(messageModel.getTimestamp()));
                 Picasso.get().load(messageModel.getPhotoUrl()).into(((ReceiverViewHolder)holder).receiverFile);
-            }else{
+            }
+            else{
                 ((ReceiverViewHolder)holder).receiverFile.setVisibility(View.GONE);
                 ((ReceiverViewHolder)holder).receiver_time.setText(simpleDateFormat.format(messageModel.getTimestamp()));
                 ((ReceiverViewHolder)holder).receiver_msg.setText(messageModel.getMessage());
